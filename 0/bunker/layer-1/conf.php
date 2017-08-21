@@ -97,6 +97,12 @@ if(!isset($conf['EXTERNAL_SERVER'])||!filter_var($conf['EXTERNAL_SERVER'], FILTE
 	$conf['EXTERNAL_SERVER']='/assets/out';
 }
 
+//LANGUAGE
+$language_arr=array('ch', 'en', 'fr', 'de');
+if(!isset($conf['WEBSITE_LANGUAGE'])||!in_array($conf['WEBSITE_LANGUAGE'], $language_arr)){
+	$conf['WEBSITE_LANGUAGE']='en';
+}
+
 //FINAL
 $_SESSION['CONF']=$conf;
 ?>

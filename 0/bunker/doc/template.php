@@ -3,6 +3,7 @@
 	require(ROOT_PATH.'/bunker/god.php');
 	echo $head."\r\n";
 ?>		<title></title>
+		<meta name="description" content="">
 	</head>
 	<body>
 
