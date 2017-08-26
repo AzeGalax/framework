@@ -20,10 +20,10 @@ $(document).ready(function(){
 			$('#conf-ext').fadeOut();
 		}
 	});
-	$('#addList').click(function(){
-		var currentID = $('#dbList').attr('data-id');
-		var currentID = parseInt(currentID)+1;
-		$('#dbList').attr('data-id', currentID);
-		$('#dbList').append('<div class="dbList dbList'+currentID+'"><h5>Base de données n°'+currentID+'</h5><div class="form-group"><input type="text" name="dbUrl[]" required="required"><label class="control-label" for="input">Adresse du serveur</label><i class="bar"></i></div><div class="form-group"><input type="text" name="dbUser[]" required="required"><label class="control-label" for="input">Nom d\'utilisateur</label><i class="bar"></i></div><div class="form-group"><input type="text" name="dbPassword[]" required="required"><label class="control-label" for="input">Mot de passe</label><i class="bar"></i></div></div>');
-	});
+	//$('#addList').click(function(){
+	//	var currentID = $('#dbList').attr('data-id');
+	//	var currentID = parseInt(currentID)+1;
+	//	$('#dbList').attr('data-id', currentID);
+	//	$('#dbList').append('<div class="dbList dbList'+currentID+'"><h5>Base de données n°'+currentID+'</h5><div class="form-group"><input type="text" name="dbUrl[]" required="required"><label class="control-label" for="input">Adresse du serveur</label><i class="bar"></i></div><div class="form-group"><input type="text" name="dbUser[]" required="required"><label class="control-label" for="input">Nom d\'utilisateur</label><i class="bar"></i></div><div class="form-group"><input type="text" name="dbPassword[]" required="required"><label class="control-label" for="input">Mot de passe</label><i class="bar"></i></div></div>');
+	//});
 });
