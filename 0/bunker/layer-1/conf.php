@@ -13,7 +13,7 @@ $conf=$_SESSION['CONF'];
 //DB
 //1:No connection
 //2:Connection
-if(!isset($conf['DB_VERSION'])||!in_array($conf['DB_VERSION'], [1,2])||$conf['DB_VERSION']=='DEFAULT'){
+if(!isset($conf['DB_VERSION'])||!in_array($conf['DB_VERSION'],[1,2])||$conf['DB_VERSION']=='DEFAULT'){
 	$conf['DB_VERSION']=1;
 }
 //Empty array
@@ -47,7 +47,6 @@ if($conf['DB_VERSION']==2){
 	$conf['DB_SERVER']=null;
 	$conf['DB_VERSION']=1;
 }
-
 //MAIL
 //1:No Auth
 //2:Auth
@@ -58,7 +57,7 @@ if($conf['DB_VERSION']==2){
 //MAIL CONFIG
 //a:3:{s:8:"mailHost";s:0:"";s:12:"mailPassword";s:0:"";s:14:"mailSecureType";s:0:"";}
 	if($conf['MAIL_VERSION']==2){
-		if(isset($conf['MAIL_SERVER'])&&$conf['MAIL_SERVER']!='DEFAULT'){
+		if(isset($conf['MAIL_SERVER']) && $conf['MAIL_SERVER']!='DEFAULT'){
 			if(!empty($conf['MAIL_SERVER'])){
 				$conf['MAIL_SERVER']=unserialize($conf['MAIL_SERVER']);
 				$mailExt=array('ssl', 'tls');

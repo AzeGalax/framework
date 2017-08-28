@@ -10,6 +10,7 @@
 		<link rel="icon" type="image/png" href="<?=ASSETS;?>/img/icon/ico.png">
 		<link rel="stylesheet" type="text/css" href="<?=ASSETS;?>/css/grid.css">
 		<link rel="stylesheet" type="text/css" href="<?=ASSETS;?>/css/main.css">
+		<link rel="stylesheet" type="text/css" href="<?=ASSETS;?>/css/material.css">
 		<link rel="stylesheet" type="text/css" href="<?=ASSETS;?>/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto|Pacifico|Varela+Round"><?php
 	//$cssInclude=[];

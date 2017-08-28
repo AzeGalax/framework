@@ -11,5 +11,9 @@
 	//if($countJs>=1){
 	//	echo "\r\n";
 	//}
+	displayMsg();
 	require(constant('ROOT_PATH').'/bunker/layer-1/layer-2/mail.php');
-?></html>
+?>	</body>
+	<script type="text/javascript" src="/assets/out/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/out/js/main.js"></script>
+</html>

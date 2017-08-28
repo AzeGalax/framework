@@ -6,6 +6,9 @@
 		<meta name="description" content="">
 	</head>
 	<body>
-
+		<?=$menu;?>
+		<section class="main-section clearfix">
+			
+		</section>
 	</body>
 <?=$body;?>
